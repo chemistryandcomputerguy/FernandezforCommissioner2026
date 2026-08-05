@@ -1,0 +1,19 @@
+ h1 {
+        text-align: center;
+        background-color: blue;
+        color: lightcyan;
+        padding: 10px;
+        }
+
+ h2 {
+        text-align: left;
+        background-color: white;
+        color: Dodgerblue;
+        padding: 10px;
+        }
+
+ ol {
+        text-align: left;
+        background-color: white;
+        color: Gray;
+        }
