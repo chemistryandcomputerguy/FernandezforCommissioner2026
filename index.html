@@ -54,21 +54,21 @@ Fill out the following form:
 
     <li>
     <!--  Add a label explaining what text input is being asked for next to it-->
-    <label for="Name">Address</label>
+    <label for="Address">Address</label>
     <!--  input text field box itself-->
     <input type="text" id="Address" name="Address">
     </li>
 
     <li>
     <!--  Add a label explaining what text input is being asked for next to it-->
-    <label for="Name">Occupation (only needed if donating over $1,000)</label>
+    <label for="Occupation">Occupation (only needed if donating over $1,000)</label>
     <!--  input text field box itself-->
     <input type="text" id="Occupation" name="Occupation">
     </li>
 
     <li>
     <!--  Add a label explaining what text input is being asked for next to it-->
-    <label for="Name">Email</label>
+    <label for="Contact">Email</label>
     <!--  input text field box itself-->
     <input type="text" id="Contact" name="Contact">
     </li>
@@ -87,6 +87,13 @@ Fill out the following form:
 
     <!--  input checkbox button itself-->
     <label for="Agree"> I confirm that I have read and agree to the rules above the form on this page.</label> 
+
+    <input type="hidden" name="_email" value="{{Contact}}">
+        
+    <input type="hidden" name="_email_message" 
+value="Hello {{Name}}, thanks for your submission. 
+Here is the link to complete campaign donation:
+        https://venmo.com/u/CandidateFernandez">
         
     <!--  Add a submission button-->
 <input type="submit" value="Submit">
