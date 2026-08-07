@@ -44,36 +44,53 @@ By clicking I agree to the in the form on the bottom and submitting, you assert 
 Fill out the following form:
 </p>
 <form action="http://localhost:5000" method="post">
+    <ol>
+    <li>
     <!--  Add a label explaining what text input is being asked for next to it-->
     <label for="Name">Name</label>
     <!--  input text field box itself-->
     <input type="text" id="Name" name="Name">
+    </li>
 
+    <li>
     <!--  Add a label explaining what text input is being asked for next to it-->
     <label for="Name">Address</label>
     <!--  input text field box itself-->
     <input type="text" id="Address" name="Address">
+    </li>
 
+    <li>
     <!--  Add a label explaining what text input is being asked for next to it-->
     <label for="Name">Occupation (only needed if donating over $1,000)</label>
     <!--  input text field box itself-->
     <input type="text" id="Occupation" name="Occupation">
+    </li>
 
+    <li>
     <!--  Add a label explaining what text input is being asked for next to it-->
     <label for="Name">Preferred contact (email address, phone number, or both)</label>
     <!--  input text field box itself-->
     <input type="text" id="Contact" name="Contact">
+    </li>
 
+    <li>
     <!--  Add a label explaining what checkbox button is being asked for next to it-->
     <input type="checkbox" id="Agree" name="Agree" value="Agree">
+    </li>
+
+    <li>
     <!--  input checkbox button itself-->
-    <label for="Agree"> I confirm that I have read and agree to the rules above the form on this page.</label><br>
+    <label for="Agree"> I confirm that I have read and agree to the rules above the form on this page.</label> 
 
     <!--  Add a submission button-->
 <input type="submit" value="Submit">
+    </li>
+    </ol>
+    
         <!-- enclosing end of features below -->
 <form action="thankyou.html" method="post">
 </form>
+
         <!-- run script based off scratch_3.xml hierarchy I created -->
 
 
